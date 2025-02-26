@@ -12,13 +12,20 @@ body{
     margin: 0;
 }
 
+.search{
+    position: relative;
+    height: 50px;
+
+}
+
 .search .input {
     height: 50px;
-    width: 500px;
+    width: 50px;
     font-size:18px;
     padding: 15px;
     border: 0;
     background-color: salmon;
+    transition: width 1s ease;
 }
 
 .btn{
@@ -27,4 +34,22 @@ body{
     font-size: 24px;
     height: 50px;
     width: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    Transition: transform 1s ease;
+}
+
+.search.active .input {
+    width: 200px;
+}
+
+.search.active .btn {
+    transform: translateX(198px);
+}
+
+
+.btn:focus, .input:focus {
+    outline: none;
 }
