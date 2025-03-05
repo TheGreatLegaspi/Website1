@@ -4,7 +4,7 @@ let currentColorIndex = 0;
 function ChangeColor() {
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
     document.body.style.backgroundColor = colors[currentColorIndex];
-    currentColorIndex = (currentColorIndex + 1);
+    currentColorIndex = (currentColorIndex + 1) % 6;
 }
 
 
