@@ -44,3 +44,8 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+.hero::before {
+    content: 'hello';
+}
