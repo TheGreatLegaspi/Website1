@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Badeen+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 
 *{
     box-sizing: border-box;
@@ -14,7 +14,7 @@ body{
 }
 
 .btn {
-    font-family: 'Badeen Display', system-ui;
+    "Atkinson Hyperlegible Mono", sans-serif;
     background-color: rebeccapurple;
     margin: 10px;
     color: rgb(255,255,255);
