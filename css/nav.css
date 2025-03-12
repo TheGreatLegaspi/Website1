@@ -33,6 +33,10 @@ body {
 }
 
 .hero{
+    background-image: url('../images/Fried Chicken.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
     height: 100vh;
     display; flex;
     justify-content: center;
