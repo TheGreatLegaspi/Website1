@@ -14,6 +14,7 @@ body{
 }
 
 .btn {
+    font-family: 'Badeen Display', system-ui;
     background-color: rebeccapurple;
     margin: 10px;
     color: rgb(255,255,255);
