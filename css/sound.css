@@ -13,5 +13,11 @@ body{
 }
 
 .btn {
-    
+    background-color: rebeccapurple;
+    margin: 10px;
+    color: rgb(255,255,255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
 }
