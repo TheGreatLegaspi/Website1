@@ -8,5 +8,6 @@
 
 body {
     font-family: "Atkinson Hyperlegible Mono", sans-serif;
-    color: rgh
+    color: rgh(22,22,22);
+    padding-bottom: 50px;
 }
