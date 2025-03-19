@@ -5,3 +5,7 @@ const game_container = document.getElementById ('game-container')
 const timeEl = document.getElementById('time')
 const scoreEl = document.getElementById('score')
 const mes= document.getElementById('message')
+
+start_btn.addEventListener('click', => {
+    
+})
