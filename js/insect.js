@@ -7,5 +7,5 @@ const scoreEl = document.getElementById('score')
 const mes= document.getElementById('message')
 
 start_btn.addEventListener('click', => {
-    
+    screen[0]
 })
