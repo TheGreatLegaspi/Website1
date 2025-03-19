@@ -9,3 +9,9 @@ const mes= document.getElementById('message')
 start_btn.addEventListener('click', => {
     screen[0].classList.add('up')
 })
+
+
+choose_insect_btns.forEach(btn => {
+    btn.addEventListener ('click', () =>
+    screen[1])
+})
