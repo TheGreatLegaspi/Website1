@@ -37,12 +37,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    height: 100vh;
+    height: 100v;
+    color: white;
     display; flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
 }
 
 
