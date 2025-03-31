@@ -80,7 +80,25 @@ body {
     padding: 20px 0;
 }
 
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
 
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+}
 
+.nav.active {
+    background-color: white;
+}
+
+.nav.active.a {
+    color: black;
+}
 
 
