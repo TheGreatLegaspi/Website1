@@ -19,6 +19,13 @@ choose_insect_btns.forEach(btn => {
     btn.addEventListener ('click', () =>{
     screen[1].classList.add ('up')
     const img = btn.querySelector('img')
-    const src 
+    const src
 })
 })
+
+function createInsect() {
+    const insect = document.createElement('div')
+    insect.classList.add('insect')
+    const {x,y} = getRandomLocation()
+}
+
