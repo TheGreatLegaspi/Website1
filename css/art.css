@@ -1,0 +1,99 @@
+
+
+*{
+    background-color: lightblue;
+}
+
+.sun{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.grass{
+    height: 100px;
+    width: 1500px;
+    background-color: green;
+    position: absolute;
+    bottom:0;
+}
+
+.house{
+    height: 175px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+}
+
+.door{
+    height: 100px;
+    width: 60px;
+    background-color: brown;
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+}
+
+.window {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 150px;
+    left: 130px;
+}
+
+.windowl{
+    height:50px;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    bottom: 150px;
+    left: 154px;
+}
+
+.windowline{
+    height: 5px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 173px;
+    left: 130px;
+}
+
+.smoker {
+    height: 60px;
+    width: 40px;
+    position: absolute;
+    background-color: red;
+    bottom: 300px;
+    left: 140px;
+    border-left: 30px transparent;
+}
+
+.roof {
+    height: 0px;
+    width: 0px;
+    position:absolute;
+    border-left: 102px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid grey;
+    bottom:275px;
+}
+
+.doorknob{
+    height: 15px;
+    width: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 140px;
+    left: 87px;
+}
+
