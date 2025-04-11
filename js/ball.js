@@ -5,7 +5,7 @@ const LPaddle = document.createElement('div')
 document.body.appendChild(LPaddle)
 let LPaddleWidth = 10
 let LPaddleHeight = 100
-let LPaddleSpeed = 5
+let LPaddleSpeed = 10
 let LPaddleYPosition = windowHeight / 2 - LPaddleHeight / 2
 let LPaddleXPosition = 70
 
@@ -14,7 +14,7 @@ document.body.appendChild(ball)
 const ballRadius = 20
 let ballXPosition = windowWidth/2 - ballRadius
 let ballYPosition = windowHeight/2 - ballRadius
-let ballSpeed = 5
+let ballSpeed = 10
 let ballXDirection = 1
 let ballYDirection = 1
 
@@ -92,6 +92,12 @@ function moveBall() {
         (ballXDirection == -1)
     ) {
         ballXDirection = ballXDirection * -1
+        score = score + 1
+        if (score % 10 == 0) {
+            level = level + 1
+            ballSpeed += 1
+        }
+        updateDisplays()
 
 }
 }
