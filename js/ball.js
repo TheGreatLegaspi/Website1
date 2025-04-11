@@ -28,13 +28,12 @@ document.body.appendChild(scoreDisplay)
 document.body.appendChild(levelDisplay)
 
 scoreDisplay.style.position = 'absolute'
-scoreDisplay.style.top = '20px'
+scoreDisplay.style.top = '5px'
 scoreDisplay.style.textAlign = 'center'
 scoreDisplay.style.fontSize = '24px'
 
 levelDisplay.style.position = 'absolute'
-levelDisplay.style.top = '20px'
-levelDisplay.style.left = '680px'
+levelDisplay.style.top = '35px'
 levelDisplay.style.fontSize = '24px'
 
 updateDisplays();
@@ -151,7 +150,7 @@ function endGame() {
     end.style.top = '0'
     end.style.left = '0'
     end.style.fontSize = '24px'
-    end.innerHTML = 'Game over'
+    end.innerHTML = 'Game over!'
     end.style.textAlign = 'center'
     end.style.zIndex = '-1'
     end.style.opacity = '0'
@@ -161,5 +160,6 @@ function lose () {
     if(ballXPosition <= 0 ) {
         end.style.zIndex = '2'
         end.style.opacity = '1'
+        end.style.backgroundColor = 'white'
     }
 }
