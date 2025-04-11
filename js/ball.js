@@ -136,5 +136,30 @@ function animate () {
     moveBall()
     moveLPaddle()
     requestAnimationFrame(animate)
+    lose()
 }
 animate()
+
+const end = document.createElement('div')
+document.body.appendChild(end)
+
+endGame()
+
+function endGame() {
+    end.style.width = '100%'
+    end.style.height = '100%'
+    end.style.top = '0'
+    end.style.left = '0'
+    end.style.fontSize = '24px'
+    end.innerHTML = 'Game over'
+    end.style.textAlign = 'center'
+    end.style.zIndex = '-1'
+    end.style.opacity = '0'
+}
+
+function lose () {
+    if(ballXPosition <= 0 ) {
+        end.style.zIndex = '2'
+        end.style.opacity = '1'
+    }
+}
