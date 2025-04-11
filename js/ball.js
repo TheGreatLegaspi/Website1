@@ -29,12 +29,12 @@ document.body.appendChild(levelDisplay)
 
 scoreDisplay.style.position = 'absolute'
 scoreDisplay.style.top = '20px'
-scoreDisplay.style.left = '20px'
+scoreDisplay.style.textAlign = 'center'
 scoreDisplay.style.fontSize = '24px'
 
 levelDisplay.style.position = 'absolute'
-levelDisplay.style.top = '50px'
-levelDisplay.style.left = '20px'
+levelDisplay.style.top = '20px'
+levelDisplay.style.left = '680px'
 levelDisplay.style.fontSize = '24px'
 
 updateDisplays();
@@ -42,6 +42,7 @@ function updateDisplays() {
     scoreDisplay.textContent = `Score: ${score}`
     levelDisplay.textContent = `Level: ${level}`
 }
+
 
 function createBall () {
     ball.style.height = `${2 * ballRadius}px`
@@ -91,7 +92,8 @@ function moveBall() {
         (ballXDirection == -1)
     ) {
         ballXDirection = ballXDirection * -1
-    }
+
+}
 }
 
 let wKey = false
