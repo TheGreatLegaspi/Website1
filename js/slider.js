@@ -5,6 +5,7 @@ const leftSide = document.querySelector('.left-side')
 const slidesLength = rightSide.querySelectorAll('div').length
 
 
+
 upButton.addEventListener('click', () => changeSlide('up'))
 downButton.addEventListener('click', () => changeSlide('down'))
 
