@@ -11,7 +11,7 @@ downButton.addEventListener('click', () => changeSlide('down'))
 
 function changeSlide(direction){
     if (direction == 'up'){
-        leftSide.style.top = 
+        leftSide.style.top = leftSide.style.top + 100%
     }
     else {
             console.log('down')
