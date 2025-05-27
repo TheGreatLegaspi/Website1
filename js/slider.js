@@ -21,10 +21,10 @@ function changeSlide(direction){
         rightSide.style.top = `${-(currentSlide - 1) * 100}%`
     }
     else {
+        currentSlide= currentSlide -1
             if (currentSlide == 0) {
-                currentSlide = slidesLength + 1
+                currentSlide = slidesLength
             }
-            currentSlide = currentSlide - 1
     }
       leftSide.style.top = `${-(slidesLength - currentSlide)*100}%`
         rightSide.style.top = `${-(currentSlide - 1) * 100}%`
