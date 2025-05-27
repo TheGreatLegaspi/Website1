@@ -4,7 +4,7 @@ const rightSide = document.querySelector('.right-side')
 const leftSide = document.querySelector('.left-side')
 const slidesLength = rightSide.querySelectorAll('div').length
 
-leftSide.style.top = '-300%'
+leftSide.style.top = `-(slidesLength - 1)%`
 
 upButton.addEventListener('click', () => changeSlide('up'))
 downButton.addEventListener('click', () => changeSlide('down'))
